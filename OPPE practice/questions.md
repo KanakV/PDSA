@@ -39,8 +39,8 @@ here several pairs have min difference of 1:
 
 ---
 # Domino Solitaire
-![alt text](image.png)
-
+![alt text](q_images/image.png)
+![alt text](q_images/image-1.png)
 ---
 # Binary Search Tree
 Consider an implementation of a Binary Search Tree, where each node is created using the given class Node. Suppose it has a root variable that contains the reference to the root node of the binary search tree.
@@ -57,3 +57,10 @@ class Node:
         # Contains reference to the right child node if it exists, otherwise None
         self.right = None
 ```
+---
+# Count Subsequence
+![alt text](q_images/image-2.png)
+
+---
+# Swapping Min-Max
+![alt text](/q_images/min.png)
