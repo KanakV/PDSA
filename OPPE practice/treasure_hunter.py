@@ -10,10 +10,6 @@ def max_treasure(house):
             Tmax = max()
 
         Tmax += max(house[i] + maxGold[i+2], maxGold[i+1])
-    
-
-    
-    ...
 
 
 house = [1, 3, 3, 4]
