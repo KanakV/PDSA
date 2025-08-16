@@ -1,0 +1,4 @@
+Initialize the distance array: Set the distance of the source vertex to 0 and the distances of all other vertices to infinity.
+Relax all edges: Repeat the following step (V-1) times, where V is the number of vertices in the graph. For each edge (u,v) with weight w, if the distance to u plus w is less than the distance to v, update the distance to v to the distance to u plus w.
+Check for negative weight cycles: After relaxing all edges V-1 times, check for negative weight cycles. For each edge (u,v) with weight w, if the distance to u plus w is less than the distance to v, there exists a negative weight cycle.
+Print the distance array: If there are no negative weight cycles, print the distance array, which contains the shortest path distances from the source vertex to all other vertices

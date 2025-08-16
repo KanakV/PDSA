@@ -1,0 +1,4 @@
+Choose any vertex as the starting vertex and add it to the MST set. Initialize the weight of this vertex to 0.
+Find the edge with the minimum weight that connects the starting vertex to any other vertex.
+Add the adjacent vertex connected by the minimum weight edge to the MST set. Set its weight to the weight of the edge.
+Repeat steps 2 and 3 until all vertices are included in the MST set.

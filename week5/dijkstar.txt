@@ -1,0 +1,8 @@
+Create a table to store the distances from the source vertex to each vertex in the graph. Initialize the source vertex with a distance of 0 and all other vertices with infinity. Also create a set of unvisited vertices and mark all vertices as unvisited.
+While the set of unvisited vertices is not empty, do the following:
+Select the unvisited vertex with the smallest distance from the source vertex. This vertex is now considered visited.
+For each neighbor of the visited vertex that is still unvisited, calculate the distance to that neighbor by adding the weight of the edge between the visited vertex and the neighbor to the distance of the visited vertex. If this distance is smaller than the distance currently stored for the neighbor in the table, update the table with the new distance.
+After updating the distances for all neighbors, mark the visited vertex as visited.
+Repeat steps 3 to 5 until all vertices have been visited or the destination vertex has been visited.
+Once the algorithm has visited all vertices, the table will contain the shortest distances from the source vertex to each vertex in the graph.
+To find the shortest path from the source vertex to a destination vertex, backtrack from the destination vertex to the source vertex by following the path with the smallest distance at each step. This will give you the shortest path from the source vertex to the destination vertex.

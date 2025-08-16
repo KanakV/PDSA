@@ -1,0 +1,7 @@
+Sort all the edges of the graph in non-decreasing order of their weights.
+Create a new empty set for the minimum spanning tree (MST).
+Iterate through the sorted edges, starting with the edge with the smallest weight.
+For each edge, check if adding it to the MST will create a cycle.
+If the edge does not create a cycle, add it to the MST.
+Repeat steps 4 and 5 until all vertices are included in the MST, or until the desired number of edges have been added.
+Return the MST.
